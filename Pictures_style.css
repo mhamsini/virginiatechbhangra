@@ -79,7 +79,10 @@ html {
 
 .picLabel {
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 35px; text-align: center; 
+    font-size: 40px; 
+    text-align: left; 
+    text-shadow: 1px 0 5px white;
+    margin: 3%;
     color: white;
  }
 
