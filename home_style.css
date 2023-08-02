@@ -1,0 +1,167 @@
+h1 {
+    color: white;
+}
+
+html { 
+    background: url(../images/HomeCover_1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  @media(max-width: 1000px) {
+    html { 
+        background: url(../images/HomeCover_1.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+  }
+
+  .pos {
+    display: inline-block;
+    position: relative;
+    bottom: 60px;
+    left: 0px;
+  }
+
+  .flexNav {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant:small-caps;
+    letter-spacing: 2px;
+    font-size: 30px;
+ }
+
+ .flexNav ul {
+    display: flex;
+    flex-direction: row;
+    height: 5px;
+    justify-content: flex-end;
+    align-items: center;
+ }
+
+ .flexNav ul li {
+    list-style: none;
+    padding: 7px;
+    position: relative;
+    transition: 0.5s;
+    display: block;
+ }
+
+ .flexNav ul li a {
+    color: white;
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 13px;
+ }
+
+ .flexNav ul li a:hover {
+    background-color: gray;
+ }
+
+ .flexNav ul li ul {
+    display: none;
+ }
+
+ .flexNav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: none;
+    width: 100%;
+    padding: 3px 2px;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+  .inline {
+    display: inline;
+  }
+
+
+#vtb {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 180%;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 18% auto 0px auto;
+    flex-wrap: wrap;
+    
+ }
+ .login {
+    display: flex;
+    flex-direction: row;
+    flex-basis: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: None;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 8px;
+    border-radius: 8px;
+    border: 2px solid rgba(131, 29, 3, 0.815);
+    background-color: rgba(131, 29, 3, 0.815);
+    color: white;
+    
+ }
+
+ .login:hover {
+    background-color: rgba(131, 29, 3, 0.913);
+    color: black;
+ }
+
+footer {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    border: 3px solid  rgb(23, 18, 18);
+    background-color: rgba(23, 18, 18, 0.893);
+    height: 100px;
+}
+ footer .flex_right {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.center {
+    margin: 0px 46% 50px;
+}
+.upper {
+    font-variant-caps: small-caps;
+}
+
+.fa-insta {
+    font-size: 25px;
+    color: white;
+}
+.fa-email {
+    font-size: 25px;
+    color: white;
+}
+
+  @media(min-width: 425px) {
+
+  }
+
+  @media print {
+
+  }
