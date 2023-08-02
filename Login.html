@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" href="../images/vtb_logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login_style.css">
+</head>
+<body>
+    
+    
+    <form>
+        <div style="color: white; font-size: 50px; text-align: center; margin: 10% auto 17px auto; font-family:'Bebas Neue', sans-serif; text-shadow: 1px 0 20px whitesmoke;">
+            <label for="Login">Members Only</label>
+        </div>
+        <div class="flex_buttons">
+            
+            <div class="lform">
+                <input 
+                    type="text" 
+                    id="firstname" 
+                    placeholder="First Name" 
+                    required="required"
+                >
+            </div>
+            <div class="lform">
+               
+                <input 
+                    type="password" 
+                    name="password" 
+                    placeholder="Password" 
+                    required="required"
+                >
+            </div>
+    
+            <div style="margin-bottom: 10%;">
+                <button class="login_button_decor" type="submit">Login</button>
+            </div>
+        </div>
+        
+       
+    </form>
+    <div style="color: white; margin-top: 0.5%; margin-left: 40%;">
+        Back to home? <a href="Home.html" class="bth"><strong>Click here.</strong></a>
+    </div>
+
+
+    <script>
+        var fp_button = document.querySelector(".js-FP");
+        fp_button.addEventListener('click', function(event){
+            alert("Please meet with your Captains!")
+        })
+    </script>
+</body>
+</html>
